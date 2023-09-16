@@ -1,0 +1,185 @@
+@media (min-width: 641px) {
+    body {
+        background-color: rgba(3, 40, 107, 0.74);
+    }
+    
+    #page {
+        padding-bottom: 20px;
+        margin: 100px 100px;
+        border: 2px solid #000;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgb(34, 128, 241);
+    }
+    
+    #field {
+        background-color: rgba(34, 127, 241, 0.674);
+        padding: 100px 0px;
+        height: 30%;
+        font-size: 30px;
+    }
+    
+    #rC1,#rC2,#rC3{
+        padding: 10px 15px;
+        border-radius: 20px;
+        background-color: coral;
+        font-size: 16px;
+    }
+    #act {
+        
+        padding: 10px 15px;
+        border-radius: 20px;
+        background-color: rgb(255, 68, 0);
+        font-size: 16px;
+        box-shadow: inset 0px 0px 2px;
+        
+    }
+    #rC1:hover, #rC2:hover, #rC3:hover {
+        background-color: #34965d;
+        border: 2px solid #0f502a;
+        color: #ecf0f1;
+        cursor: pointer;
+    }
+
+    #time {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    
+    #click1 {
+        padding: 10px 15px;
+        border-radius: 20px;
+        background-color: rgb(23, 246, 15);
+        box-shadow: 0px 0px 1px 10px rgba(0, 255, 42, 0.382);;
+        color: #ecf0f1;
+        font-size: 16px;
+        font-weight: 700;
+        position: absolute;
+        color: #000;
+    }
+    
+    #click2 {
+        padding: 10px 15px;
+        border-radius: 20px;
+        background-color: rgb(23, 246, 15);
+        box-shadow: 0px 0px 1px 10px rgba(0, 255, 42, 0.382);;
+        color: #ecf0f1;
+        font-size: 20px;
+        font-weight: 800;
+        position: absolute;
+        color: #000;
+    }
+    
+    #click1:active {
+      
+        border-radius: 20px;
+        background-color: rgb(23, 246, 15);
+        box-shadow: 0px 0px 1px 8px rgba(0, 255, 42, 0.382);;
+        color: #ecf0f1;
+        font-size: 16px;
+        position: absolute;
+    }
+    
+    #result {
+        border: 2px solid #000;
+        padding: 20px 20px;
+        margin: 0px 30px;
+        border-radius: 20px;
+        background-color: rgb(85, 161, 255);
+    }
+    }
+
+@media (max-width: 640px) {
+    body {
+        background-color: rgba(3, 40, 107, 0.74);
+    }
+    h1 {
+        font-size: 38px;
+    }
+    #page {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 10px 10px;
+        border: 2px solid #000;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgb(34, 128, 241);
+        
+    }
+
+    #time {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+    #field {
+        background-color: rgba(34, 127, 241, 0.674);
+        padding: 100px 0px;
+        height: 30%;
+        font-size: 30px;
+    }
+
+    #rC1,#rC2,#rC3{
+        margin-top: 100px;
+        padding: 10px 15px;
+        border-radius: 20px;
+        background-color: coral;
+        font-size: 16px;
+    }
+    #act {
+        margin-top: 100px;
+        padding: 10px 15px 10px 15px;
+        border-radius: 20px;
+        background-color: rgb(255, 68, 0);
+        font-size: 16px;
+        box-shadow: inset 0px 0px 2px;
+        
+    }
+    #rC1:hover, #rC2:hover, #rC3:hover {
+        background-color: #2ecc71;
+        border: 2px solid #0f502a;
+        color: #ecf0f1;
+        cursor: pointer;
+    }
+
+    #click1 {
+        padding: 10px 20px;
+        border-radius: 40px;
+        background-color: rgb(23, 246, 15);
+        box-shadow: 0px 0px 1px 10px rgba(0, 255, 42, 0.382);;
+        color: #ecf0f1;
+        font-size: 26px;
+        position: absolute;
+        color: #000;
+        font-weight: 800;
+    }
+
+    #click2 {
+        padding: 10px 20px;
+        border-radius: 50px;
+        background-color: rgb(23, 246, 15);
+        box-shadow: 0px 0px 1px 10px rgba(0, 255, 42, 0.382);
+        color: #ecf0f1;
+        font-size: 32px;
+        position: absolute;
+        color: #000;
+        font-weight: 800;
+    }
+
+    #click1:active {
+        border-radius: 30px;
+        background-color: rgb(23, 246, 15);
+        box-shadow: 0px 0px 1px 8px rgba(0, 255, 42, 0.382);;
+        color: #ecf0f1;
+        font-size: 25px;
+        position: absolute;
+    }
+
+    #result {
+        border: 2px solid #000;
+        padding: 20px 20px;
+        margin: 0px 30px;
+        border-radius: 20px;
+        background-color: rgb(85, 161, 255);
+    }
+}
